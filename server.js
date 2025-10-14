@@ -11,3 +11,6 @@ app.listen(PORT, () => {
 app.get("/rubin", (req, res) => {
   res.send("Hi! I am Angelica V. Rubin, lyka in short — I'm 20 years old, currently living in Brgy. 95-A, Caiba-an, Tacloban City. I love to draw, read, dance and sing.");
 });
+app.get("/aljune", (req, res) => {
+  res.send("Hi! I am Aljune, Junjun in short — I'm 22 years old, currently living in Brgy. 87, Tacloban City. I love to sing, read, dance and play.");
+});
