@@ -17,3 +17,6 @@ app.get("/aljune", (req, res) => {
 app.get("/egonio", (req, res) => {
   res.send("Hi! I am Jillan, Jill in short — I'm 20 years old, currently living in Brgy. 36-A, Imelda Village Tacloban City. My hobby is playing, watching anime and listening to music.");
 });
+app.get("/floyd", (req, res) => {
+  res.send("Hi! I am Floyd, You can call me Dyolf if you're one of my G, I am 20 years old, currently staying in Rawis Anibong Tac. City, I am a gamer, guitarist, beatboxer, and lastly love to draw.");
+});
