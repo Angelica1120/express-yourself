@@ -20,3 +20,6 @@ app.get("/egonio", (req, res) => {
 app.get("/floyd", (req, res) => {
   res.send("Hi! I am Floyd, You can call me Dyolf if you're one of my G, I am 20 years old, currently staying in Rawis Anibong Tac. City, I am a gamer, guitarist, beatboxer, and lastly love to draw.");
 });
+app.get("/duroga", (req, res) => {
+  res.send("Hi! I am Joshua R. Duroga, owa in short — I'm 20 years old, currently living in Brgy. 49 Youngfield, Tacloban City. I love myself.");
+});
