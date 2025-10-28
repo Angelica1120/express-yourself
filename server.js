@@ -26,3 +26,6 @@ app.get("/duroga", (req, res) => {
 app.get("/cemanes", (req, res) => {
   res.send("Hi! I'm Janille and I like cute things! In the Sanrio Characters, my favorite is KUROMI!!!! I collect them all, so if you have any, please give me some. Thank you!");
 });
+app.get("/paglinawan", (req, res) => {
+  res.send("Hi! I am Glyfa Mae T. Paglinawan, gly in short — I'm 20 years old, currently living in Brgy. 74 Nula-Tula, Tacloban City. I love to sing, watch kdrama and i love zombie movies.");
+});
